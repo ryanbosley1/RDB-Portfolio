@@ -1,0 +1,46 @@
+#credits {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+}
+
+#credits:before {
+    height: 30px;
+    content: "";
+    display: block;
+}
+
+#credits-title {
+    margin: 30px;
+}
+
+#thanks {
+    color: #003E7D;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.names {
+    background-image: linear-gradient(to right, #327cc5 20%,
+            #448fda 40%, #6fadf0 60%, #448fda 80%, #327cc5 100%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: creditsAnimation 5s infinite alternate-reverse;
+    display: inline-block;
+    font-weight:700;
+}
+
+@keyframes creditsAnimation {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+#welcome {
+    width: 100%;
+    min-height: 960px;
+    background: linear-gradient(rgba(255, 255, 255, 0.4),
+            rgba(0, 0, 0, 0.7)50%), url(ADMA.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: 600;
+    z-index: -1;
+}
+
+#my-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #327cc5 20%,
+            #448fda 40%, #6fadf0 60%, #448fda 80%, #327cc5 100%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: nameAnimation 10s infinite alternate-reverse;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+@keyframes nameAnimation {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 100%;
+    }
+}
+
+@media(max-width: 550px) {
+    #my-name {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 300px) {
+    #my-name {
+        font-size: 30px;
+    }
+}
+
+#ryan-image {
+    width: 90%;
+    max-width: 500px;
+    background-color: #003E7D;
+    border-radius: 100%;
+    border: 5px solid #6fadf0;
+}

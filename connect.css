@@ -1,0 +1,110 @@
+#connect {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:30px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+#connect:before {
+    height: 50px;
+    content: "";
+    display:block;
+}
+
+#connect-title {
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+@media(max-width: 550px) {
+    #connect-title {
+        font-size: 50px;
+    }
+}
+
+.connect-text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#connect-title1 {
+    color: #88c2ff;
+}
+
+#connect-title2 {
+    color: #003E7D;
+    margin-left: 5px;
+}
+
+#hyperlinks {
+    display: grid;
+    grid-template-columns:120px 120px 120px;
+    column-gap:10px;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+@media(max-width: 499px) {
+    #hyperlinks {
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+#linkedin {
+    width: 110px;
+    height: 110px;
+}
+
+#facebook {
+    width: 110px;
+    height: 110px;
+}
+
+#github {
+    width: 110px;
+    height: 110px;
+}
+
+#resume{
+    padding:15px;
+    width:70px;
+    font-size:20px;
+    font-weight:500;
+    color:white;
+    border: #88c2ff solid 3px;
+    border-radius:5px;
+    background-color:#003E7D;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+#resume-div{
+    margin-top:30px;
+}
+
+#email{
+    color:#003E7D;
+    font-weight:600;
+    font-size:18px;
+}
+
+#ryan{
+    max-width:500px;
+    border: solid 6px #88c2ff;
+    border-radius:500px;
+    background-color:#003E7D;
+    max-width:500px;
+}
+
+@media(max-width: 499px) {
+    #ryan {
+        display:none;
+    }
+}
