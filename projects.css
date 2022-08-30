@@ -63,6 +63,18 @@
     border-right: 2px solid #003E7D;
 }
 
+.project-title{
+    cursor:pointer;
+    color:#003E7D;
+    text-decoration:none;
+}
+
+.project-title:hover{
+    color:#88c2ff;
+    transition: color .1s;
+    text-decoration:underline;
+}
+
 .work-right-panel {
     font-weight: 600;
 }
