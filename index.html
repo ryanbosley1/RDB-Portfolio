@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="welcome.css">
     <link rel="stylesheet" href="credits.css">
     <link rel="stylesheet" href="connect.css">
+    <link rel="stylesheet" href="java.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
+<body onclick="count()">
     <div class="header">
         <div class="header-links"><a href="#welcome" class="header-links">
                 Welcome</a></div>
@@ -98,12 +99,14 @@
             <div class="work-grid-panel">
 
                 <div class="work-left-panel">
-                    <div class="project-title">Solar Charging System Integrator</div>
+                    <div class="project-title" onclick="alert('Navigation to this project will be added soon!')">Solar
+                        Charging System Integrator</div>
                     <img src="integrator.jpg" class="work-thumbnail" alt="Image of the solar-powered bike">
                 </div>
 
-                <div class="work-right-panel">Updating Harrisburg University's Bicycle Solar Charging System 
-                    with Eaton electrical controls and Phoenix Contact's plcNext energy control panel. Research is ongoing 
+                <div class="work-right-panel">Updating Harrisburg University's Bicycle Solar Charging System
+                    with Eaton electrical controls and Phoenix Contact's plcNext energy control panel. Research is
+                    ongoing
                     regarding integrating solar charging systems.
                 </div>
             </div>
@@ -111,24 +114,28 @@
             <div class="work-grid-panel">
 
                 <div class="work-left-panel">
-                    <div class="project-title">Virtual Reality Artifical Gravity Space Ring</div>
+                    <div class="project-title" onclick="alert('Navigation to this project will be added soon!')">Virtual
+                        Reality Artifical Gravity Space Ring</div>
                     <img src="spacering.png" class="work-thumbnail" alt="Image of the Artificial Gravity Space Ring">
                 </div>
 
-                <div class="work-right-panel"> 3D modeled and custom-textured a space ring utilizing Unity with a team of two other 
-                    Harrisburg University students to put in a VR realm. 
+                <div class="work-right-panel"> 3D modeled and custom-textured a space ring utilizing Unity with a team
+                    of two other
+                    Harrisburg University students to put in a VR realm.
                 </div>
             </div>
 
             <div class="work-grid-panel">
 
                 <div class="work-left-panel">
-                    <div class="project-title">VR-rendered Harrisburg University</div>
+                    <div class="project-title" onclick="alert('Navigation to this project will be added soon!')">
+                        VR-rendered Harrisburg University</div>
                     <img src="caves.png" class="work-thumbnail" alt="Image of the Artificial Gravity Space Ring">
                 </div>
 
-                <div class="work-right-panel"> Ongoing project of rendering Harrisburg University of Science and Technology
-                    into Virtual Reality for educational experiences and virtual tours. 
+                <div class="work-right-panel"> Ongoing project of rendering Harrisburg University of Science and
+                    Technology
+                    into Virtual Reality for educational experiences and virtual tours.
                 </div>
             </div>
         </div>
@@ -164,7 +171,7 @@
             </div>
         </div>
 
-        <div id="resume-div"><a href="resume.pdf" target="_blank" id="resume">Resume</a></div>
+        <div id="resume-div"><a href="RDB's Resume (5).pdf" target="_blank" id="resume">Resume</a></div>
 
         <p class="connect-text" id="email">rbosley@my.harrisburgu.edu</p>
 
@@ -209,6 +216,15 @@
             <p class="names">Blackoutt's World</p> for being solid for years and years to come</p>
         </div>
     </div>
+
+    <div id="clicks">
+        <div class="click-label">Clicks:</div>
+        <div id="click-count">
+            <p id="number">0</p>
+        </div>
+    </div>
+
+    <script src="/js.js"></script>
 </body>
 
 </html>
