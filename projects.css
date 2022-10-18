@@ -7,7 +7,6 @@ a {
 a:hover {
     color: #88c2ff;
     transition: color .1s;
-    cursor: pointer;
 }
 
 
