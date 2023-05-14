@@ -10,7 +10,7 @@ a:hover {
 }
 
 
-#work {
+#projects {
     padding-top: 0px;
     padding-bottom: 20px;
     padding-right: 10px;
@@ -18,19 +18,25 @@ a:hover {
     text-align: center;
 }
 
-#work:before {
+#projects:before {
     height: 50px;
     content: "";
     display: block;
 }
 
-#work-tba {
+#projects-tba {
     font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
 }
 
-#work-grid {
+@media(max-width:500px){
+    #projects-tba{
+        font-size:16px;
+    }
+}
+
+#projects-grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
@@ -39,7 +45,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.work-grid-panel {
+.projects-grid-panel {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .1);
     padding: 10px;
     border-radius: 50px;
@@ -57,16 +63,16 @@ a:hover {
 }
 
 @media(max-width:500px) {
-    .work-right-panel {
+    .projects-right-panel {
         font-size: 16px;
     }
 
-    .work-left-panel {
+    .projects-left-panel {
         font-size: 16px;
     }
 }
 
-.work-left-panel {
+.projects-left-panel {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -84,11 +90,11 @@ a:hover {
     transition: color .1s;
 }
 
-.work-right-panel {
+.projects-right-panel {
     font-weight: 600;
 }
 
-.work-thumbnail {
+.projects-thumbnail {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
