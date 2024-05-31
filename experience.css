@@ -30,9 +30,9 @@ a:hover {
     margin-top: 10px;
 }
 
-@media(max-width:500px){
-    #experience-tba{
-        font-size:14px;
+@media(max-width:500px) {
+    #experience-tba {
+        font-size: 14px;
     }
 }
 
@@ -88,9 +88,10 @@ a:hover {
     color: #88c2ff;
     transition: color .1s;
 }
+
 .experience-right-panel {
     font-weight: 600;
-    text-align:left;
+    text-align: left;
     font-size: 18px;
 }
 
@@ -108,13 +109,18 @@ a:hover {
 }
 
 #icelordgames {
-    margin-top:-22px;
+    margin-top: -22px;
 }
 
 #xrtaskforce {
-    margin-top:-22px;
+    margin-top: -22px;
 }
 
 .experience_list {
-    padding:10px;
+    padding: 10px;
+}
+
+.experience_dates {
+    font-size:14px;
+    color:#88c2ff;
 }
