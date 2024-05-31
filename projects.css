@@ -32,7 +32,7 @@ a:hover {
 
 @media(max-width:500px){
     #projects-tba{
-        font-size:16px;
+        font-size:14px;
     }
 }
 
@@ -63,11 +63,11 @@ a:hover {
 
 @media(max-width:500px) {
     .projects-right-panel {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .projects-left-panel {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
