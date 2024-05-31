@@ -66,8 +66,16 @@ a:hover {
         font-size: 14px;
     }
 
+    .experience_list {
+        font-size:14px;
+    }
+
     .experience-left-panel {
         font-size: 14px;
+    }
+
+    .experience_dates {
+        font-size: 11px;
     }
 }
 
@@ -121,6 +129,6 @@ a:hover {
 }
 
 .experience_dates {
-    font-size:14px;
-    color:#88c2ff;
+    font-size: 14px;
+    color: #88c2ff;
 }
