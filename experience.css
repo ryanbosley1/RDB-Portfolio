@@ -61,6 +61,12 @@ a:hover {
     align-items: center;
 }
 
+.experience-right-panel {
+    font-weight: 600;
+    text-align: left;
+    font-size: 18px;
+}
+
 @media(max-width:500px) {
     .experience-right-panel {
         font-size: 14px;
@@ -95,12 +101,6 @@ a:hover {
 .experience-title:hover {
     color: #88c2ff;
     transition: color .1s;
-}
-
-.experience-right-panel {
-    font-weight: 600;
-    text-align: left;
-    font-size: 18px;
 }
 
 .experience-thumbnail {
