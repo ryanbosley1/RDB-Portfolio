@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
     font-size: 90px;
-    font-weight: 600;
     z-index: 2;
     position: relative;
 }
@@ -20,27 +19,6 @@
     #welcome {
         background-size: auto;
     }
-}
-
-
-#my-name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    background-image: linear-gradient(to right, #25507b 10%,
-            #27619b 20%, #4991dd 30%, #448fda 40%, #67a7e7 50%,
-            #448fda 60%, #4991dd 70%, #27619b 80%, #25507b 100%);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: nameAnimation 5s infinite alternate-reverse;
-    margin-right: 5px;
-    margin-left: 5px;
-    width: 100%;
 }
 
 @keyframes nameAnimation {
@@ -63,4 +41,26 @@
     #my-name {
         font-size: 30px;
     }
+}
+
+#my-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 750;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #25507b 10%,
+            #27619b 20%, #4991dd 30%, #448fda 40%, #67a7e7 50%,
+            #448fda 60%, #4991dd 70%, #27619b 80%, #25507b 100%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: nameAnimation 5s infinite alternate-reverse;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100%;
+    font-family: Arial, sans-serif, !important;
+    -webkit-text-stroke: 3px #001c38;
 }
