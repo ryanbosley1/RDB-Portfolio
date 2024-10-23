@@ -12,13 +12,13 @@
     align-items: center;
     font-size: 90px;
     font-weight: 600;
-    z-index:2;
-    position:relative;
+    z-index: 2;
+    position: relative;
 }
 
-@media(max-width:400px){
-    #welcome{
-        background-size:auto;
+@media(max-width:400px) {
+    #welcome {
+        background-size: auto;
     }
 }
 
@@ -30,13 +30,14 @@
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
-    background-image: linear-gradient(to right, #327cc5 20%,
-            #448fda 40%, #6fadf0 60%, #448fda 80%, #327cc5 100%);
+    background-image: linear-gradient(to right, #25507b 10%,
+            #27619b 20%, #4991dd 30%, #448fda 40%, #67a7e7 50%,
+            #448fda 60%, #4991dd 70%, #27619b 80%, #25507b 100%);
     background-size: 200%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: nameAnimation 8s infinite alternate-reverse;
+    animation: nameAnimation 5s infinite alternate-reverse;
     margin-right: 5px;
     margin-left: 5px;
     width: 100%;
